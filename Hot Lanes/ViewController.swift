@@ -10,11 +10,12 @@ import UIKit
 import MapKit
 import PMAlertController
 import WebKit
-class ViewController: UIViewController, MKMapViewDelegate, WKNavigationDelegate {
+import SafariServices
+class ViewController: UIViewController, MKMapViewDelegate, WKNavigationDelegate, SFSafariViewControllerDelegate {
     @IBOutlet weak var mapView: MKMapView!
-
     @IBOutlet weak var mywebView: UIWebView!
     let regionRadius: CLLocationDistance = 12000
+    private var urlString:String = "http://www.newcomedy.com/"
     override func viewDidLoad() {
         super.viewDidLoad()
         let url = URL(string: "http://www.newcomedy.com/")!
@@ -85,6 +86,16 @@ class ViewController: UIViewController, MKMapViewDelegate, WKNavigationDelegate 
         self.present(alertVC, animated: true, completion: nil)
         
 
+    }
+    @IBAction func openWithSafariVC(sender: AnyObject)
+    {
+        let svc = SFSafariViewController(url: URL(string: urlString)!)
+        svc.delegate = self
+        self.present(svc, animated: true, completion: nil)
+    }
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController)
+    {
+        controller.dismiss(animated: true, completion: nil)
     }
 }
 

@@ -15,21 +15,33 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2iK-hV-tgp">
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2iK-hV-tgp">
+                                <frame key="frameInset" minY="618" width="375" height="49"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-Hx-FtZ"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-Hx-FtZ">
+                                <frame key="frameInset" width="1000" height="1000"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdL-tg-BiY">
+                                <connections>
+                                    <action selector="openWithSafariVCWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBp-9c-IVn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2iK-hV-tgp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="598" id="0CL-4w-a9F"/>
+                            <constraint firstItem="RdL-tg-BiY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="607" id="GaC-bn-L4P"/>
+                            <constraint firstItem="RdL-tg-BiY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Vo3-XO-fNS"/>
                             <constraint firstAttribute="trailing" secondItem="lNA-Hx-FtZ" secondAttribute="trailing" id="Vvx-L2-en7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2iK-hV-tgp" secondAttribute="bottom" id="Yjr-tx-Z5K"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RdL-tg-BiY" secondAttribute="bottom" id="jVm-v0-D8N"/>
                             <constraint firstAttribute="trailing" secondItem="2iK-hV-tgp" secondAttribute="trailing" id="kBu-N7-xoJ"/>
                             <constraint firstItem="lNA-Hx-FtZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oKu-LZ-xEu"/>
+                            <constraint firstAttribute="trailing" secondItem="RdL-tg-BiY" secondAttribute="trailing" id="wbC-Nd-UFp"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lNA-Hx-FtZ" secondAttribute="bottom" constant="47" id="wyp-TM-yCU"/>
                             <constraint firstItem="2iK-hV-tgp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xFP-5a-RK2"/>
                             <constraint firstItem="lNA-Hx-FtZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zsV-jX-Uoh"/>
