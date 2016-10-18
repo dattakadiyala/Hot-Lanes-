@@ -18,23 +18,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Kxx-fL-dOk"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2iK-hV-tgp">
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lNA-Hx-FtZ"/>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Kxx-fL-dOk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LaU-LJ-Hym"/>
-                            <constraint firstAttribute="trailing" secondItem="Kxx-fL-dOk" secondAttribute="trailing" id="TYG-95-USr"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kxx-fL-dOk" secondAttribute="bottom" id="Y5Y-Dh-PxR"/>
-                            <constraint firstItem="Kxx-fL-dOk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pWC-ZE-AB3"/>
+                            <constraint firstItem="2iK-hV-tgp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="598" id="0CL-4w-a9F"/>
+                            <constraint firstAttribute="trailing" secondItem="lNA-Hx-FtZ" secondAttribute="trailing" id="Vvx-L2-en7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2iK-hV-tgp" secondAttribute="bottom" id="Yjr-tx-Z5K"/>
+                            <constraint firstAttribute="trailing" secondItem="2iK-hV-tgp" secondAttribute="trailing" id="kBu-N7-xoJ"/>
+                            <constraint firstItem="lNA-Hx-FtZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oKu-LZ-xEu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lNA-Hx-FtZ" secondAttribute="bottom" constant="47" id="wyp-TM-yCU"/>
+                            <constraint firstItem="2iK-hV-tgp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xFP-5a-RK2"/>
+                            <constraint firstItem="lNA-Hx-FtZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zsV-jX-Uoh"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="Kxx-fL-dOk" id="EUF-Du-xtr"/>
+                        <outlet property="mapView" destination="lNA-Hx-FtZ" id="9dG-Xh-9f9"/>
+                        <outlet property="mywebView" destination="2iK-hV-tgp" id="Urf-aQ-Ui5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="358" y="122"/>
+            <point key="canvasLocation" x="357.60000000000002" y="121.88905547226388"/>
         </scene>
     </scenes>
 </document>

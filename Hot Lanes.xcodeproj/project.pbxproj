@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1F26ACBA03CC58294B66C4 /* Pods_Hot_LanesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4452385F05697667F0CE6671 /* Pods_Hot_LanesTests.framework */; };
+		5BD04BAE5C9B27EC8BB552A3 /* Pods_Hot_LanesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D52DB718EC8B6D89E5E77B /* Pods_Hot_LanesUITests.framework */; };
+		6500AB3851079421B7012D40 /* Pods_Hot_Lanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D77EFB08744D5A4FE5832 /* Pods_Hot_Lanes.framework */; };
+		C68BFDDC1DB2EDE2009584FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BFDDB1DB2EDE2009584FA /* MapKit.framework */; };
+		C68BFDDE1DB31ADB009584FA /* Lanes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BFDDD1DB31ADB009584FA /* Lanes.swift */; };
+		C68BFDE81DB34CC1009584FA /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BFDE71DB34CC1009584FA /* SwiftNotice.swift */; };
 		C68EA83C1D976C1E00C827C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68EA83B1D976C1E00C827C4 /* AppDelegate.swift */; };
 		C68EA83E1D976C1E00C827C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68EA83D1D976C1E00C827C4 /* ViewController.swift */; };
 		C68EA8411D976C1E00C827C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68EA83F1D976C1E00C827C4 /* Main.storyboard */; };
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FB507D71CE47D6A65027D5E /* Pods-Hot LanesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hot LanesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hot LanesUITests/Pods-Hot LanesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4452385F05697667F0CE6671 /* Pods_Hot_LanesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hot_LanesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2E2F37C7A354403F22434E /* Pods-Hot LanesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hot LanesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hot LanesTests/Pods-Hot LanesTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F6D77EFB08744D5A4FE5832 /* Pods_Hot_Lanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hot_Lanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819AEDBC22E5AAB77EFE37E3 /* Pods-Hot Lanes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hot Lanes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hot Lanes/Pods-Hot Lanes.debug.xcconfig"; sourceTree = "<group>"; };
+		99D52DB718EC8B6D89E5E77B /* Pods_Hot_LanesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hot_LanesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68BFDDB1DB2EDE2009584FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C68BFDDD1DB31ADB009584FA /* Lanes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lanes.swift; sourceTree = "<group>"; };
+		C68BFDE71DB34CC1009584FA /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
 		C68EA8381D976C1E00C827C4 /* Hot Lanes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot Lanes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68EA83B1D976C1E00C827C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C68EA83D1D976C1E00C827C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		C68EA85A1D976C1E00C827C4 /* Hot LanesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hot LanesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68EA85E1D976C1E00C827C4 /* Hot_LanesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_LanesUITests.swift; sourceTree = "<group>"; };
 		C68EA8601D976C1E00C827C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE7F21AB85591C0C5DAA9E /* Pods-Hot LanesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hot LanesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hot LanesUITests/Pods-Hot LanesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDCA17DB95F4FCEEE5E71D8F /* Pods-Hot LanesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hot LanesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hot LanesTests/Pods-Hot LanesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F06372F9671EDC7F9E1F6E9A /* Pods-Hot Lanes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hot Lanes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hot Lanes/Pods-Hot Lanes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68BFDDC1DB2EDE2009584FA /* MapKit.framework in Frameworks */,
+				6500AB3851079421B7012D40 /* Pods_Hot_Lanes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1F26ACBA03CC58294B66C4 /* Pods_Hot_LanesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +91,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD04BAE5C9B27EC8BB552A3 /* Pods_Hot_LanesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19FCF10C14727A84019398E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819AEDBC22E5AAB77EFE37E3 /* Pods-Hot Lanes.debug.xcconfig */,
+				F06372F9671EDC7F9E1F6E9A /* Pods-Hot Lanes.release.xcconfig */,
+				EDCA17DB95F4FCEEE5E71D8F /* Pods-Hot LanesTests.debug.xcconfig */,
+				4A2E2F37C7A354403F22434E /* Pods-Hot LanesTests.release.xcconfig */,
+				3FB507D71CE47D6A65027D5E /* Pods-Hot LanesUITests.debug.xcconfig */,
+				CECE7F21AB85591C0C5DAA9E /* Pods-Hot LanesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C68BFDDA1DB2EDE2009584FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68BFDDB1DB2EDE2009584FA /* MapKit.framework */,
+				5F6D77EFB08744D5A4FE5832 /* Pods_Hot_Lanes.framework */,
+				4452385F05697667F0CE6671 /* Pods_Hot_LanesTests.framework */,
+				99D52DB718EC8B6D89E5E77B /* Pods_Hot_LanesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C68EA82F1D976C1E00C827C4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				C68EA8521D976C1E00C827C4 /* Hot LanesTests */,
 				C68EA85D1D976C1E00C827C4 /* Hot LanesUITests */,
 				C68EA8391D976C1E00C827C4 /* Products */,
+				C68BFDDA1DB2EDE2009584FA /* Frameworks */,
+				19FCF10C14727A84019398E9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				C68EA83B1D976C1E00C827C4 /* AppDelegate.swift */,
+				C68BFDE71DB34CC1009584FA /* SwiftNotice.swift */,
 				C68EA83D1D976C1E00C827C4 /* ViewController.swift */,
+				C68BFDDD1DB31ADB009584FA /* Lanes.swift */,
 				C68EA83F1D976C1E00C827C4 /* Main.storyboard */,
 				C68EA8451D976C1E00C827C4 /* Assets.xcassets */,
 				C68EA8471D976C1E00C827C4 /* LaunchScreen.storyboard */,
@@ -135,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C68EA8631D976C1E00C827C4 /* Build configuration list for PBXNativeTarget "Hot Lanes" */;
 			buildPhases = (
+				BF1D0A3609CF34550E7D696D /* [CP] Check Pods Manifest.lock */,
 				C68EA8341D976C1E00C827C4 /* Sources */,
 				C68EA8351D976C1E00C827C4 /* Frameworks */,
 				C68EA8361D976C1E00C827C4 /* Resources */,
+				648F233E522B8687D7D0391B /* [CP] Embed Pods Frameworks */,
+				A6532A5BD0B815BA5E40DBFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C68EA8661D976C1E00C827C4 /* Build configuration list for PBXNativeTarget "Hot LanesTests" */;
 			buildPhases = (
+				4CDDB6EA63BA0F58BAD85572 /* [CP] Check Pods Manifest.lock */,
 				C68EA84B1D976C1E00C827C4 /* Sources */,
 				C68EA84C1D976C1E00C827C4 /* Frameworks */,
 				C68EA84D1D976C1E00C827C4 /* Resources */,
+				650C70FA1412709A5319ECF7 /* [CP] Embed Pods Frameworks */,
+				E533B33A403B9B405BD81FE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C68EA8691D976C1E00C827C4 /* Build configuration list for PBXNativeTarget "Hot LanesUITests" */;
 			buildPhases = (
+				9062820DB8DBF3CFDB6DF530 /* [CP] Check Pods Manifest.lock */,
 				C68EA8561D976C1E00C827C4 /* Sources */,
 				C68EA8571D976C1E00C827C4 /* Frameworks */,
 				C68EA8581D976C1E00C827C4 /* Resources */,
+				9BFFF94E17CDB75C7C8B8CE1 /* [CP] Embed Pods Frameworks */,
+				DDE68B7A06F15B35348908D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +257,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = XTK9Z4R9PW;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C68EA84E1D976C1E00C827C4 = {
 						CreatedOnToolsVersion = 8.0;
@@ -260,13 +324,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CDDB6EA63BA0F58BAD85572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		648F233E522B8687D7D0391B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hot Lanes/Pods-Hot Lanes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		650C70FA1412709A5319ECF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hot LanesTests/Pods-Hot LanesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9062820DB8DBF3CFDB6DF530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFFF94E17CDB75C7C8B8CE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hot LanesUITests/Pods-Hot LanesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6532A5BD0B815BA5E40DBFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hot Lanes/Pods-Hot Lanes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1D0A3609CF34550E7D696D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE68B7A06F15B35348908D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hot LanesUITests/Pods-Hot LanesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E533B33A403B9B405BD81FE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hot LanesTests/Pods-Hot LanesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C68EA8341D976C1E00C827C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C68EA83E1D976C1E00C827C4 /* ViewController.swift in Sources */,
+				C68BFDDE1DB31ADB009584FA /* Lanes.swift in Sources */,
 				C68EA83C1D976C1E00C827C4 /* AppDelegate.swift in Sources */,
+				C68BFDE81DB34CC1009584FA /* SwiftNotice.swift in Sources */,
 				C68EA8441D976C1E00C827C4 /* Hot_Lanes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +621,12 @@
 		};
 		C68EA8641D976C1E00C827C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819AEDBC22E5AAB77EFE37E3 /* Pods-Hot Lanes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XTK9Z4R9PW;
 				INFOPLIST_FILE = "Hot Lanes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "idvapps.Hot-Lanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +636,12 @@
 		};
 		C68EA8651D976C1E00C827C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06372F9671EDC7F9E1F6E9A /* Pods-Hot Lanes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XTK9Z4R9PW;
 				INFOPLIST_FILE = "Hot Lanes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "idvapps.Hot-Lanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +651,7 @@
 		};
 		C68EA8671D976C1E00C827C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDCA17DB95F4FCEEE5E71D8F /* Pods-Hot LanesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +667,7 @@
 		};
 		C68EA8681D976C1E00C827C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2E2F37C7A354403F22434E /* Pods-Hot LanesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +683,7 @@
 		};
 		C68EA86A1D976C1E00C827C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB507D71CE47D6A65027D5E /* Pods-Hot LanesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XTK9Z4R9PW;
@@ -487,6 +698,7 @@
 		};
 		C68EA86B1D976C1E00C827C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECE7F21AB85591C0C5DAA9E /* Pods-Hot LanesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XTK9Z4R9PW;
@@ -518,6 +730,7 @@
 				C68EA8651D976C1E00C827C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C68EA8661D976C1E00C827C4 /* Build configuration list for PBXNativeTarget "Hot LanesTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +739,7 @@
 				C68EA8681D976C1E00C827C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C68EA8691D976C1E00C827C4 /* Build configuration list for PBXNativeTarget "Hot LanesUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +748,7 @@
 				C68EA86B1D976C1E00C827C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

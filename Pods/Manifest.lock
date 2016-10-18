@@ -1,0 +1,12 @@
+PODS:
+  - PMAlertController (2.0.0)
+
+DEPENDENCIES:
+  - PMAlertController
+
+SPEC CHECKSUMS:
+  PMAlertController: edd2ae1f2a31ec77db72103a2dd81a77d6b5de95
+
+PODFILE CHECKSUM: 4f9df27bc61e768aba7e66cf11ddf0cef15742f5
+
+COCOAPODS: 1.1.0.rc.3

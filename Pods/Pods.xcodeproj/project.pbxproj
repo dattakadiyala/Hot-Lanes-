@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08269A23C95453152F78C4EA0065C917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		21C429C5A2F9D56BF7861DC6A9B46F7E /* Pods-Hot Lanes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA03C7C9F02C715058B1DC5AA7FD901 /* Pods-Hot Lanes-dummy.m */; };
+		4FE073F0AC582B16596EEF7FB233BE3A /* Pods-Hot LanesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3265EB8687E04D14C198A0085A944CAC /* Pods-Hot LanesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAF832E5A2CE0FDFEC4F1865F75ED79 /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A081B06EBE5AA5F07D14BD037399A /* PMAlertController.swift */; };
+		6A91AC0152233BBA5BBF0100DDFEF735 /* PMAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A70743A03FAD3EAF20A50C5B7A2998C /* PMAlertController.bundle */; };
+		7D4BC821A6267792CBA5B6FF5E625233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		7DCFE8B560F0D4D7889A1AF1539167F2 /* PMAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3537CA1090C951F8E6BC50C07621816A /* PMAlertController.xib */; };
+		82077B52FD413CCB5AB8AC0EED38C1F4 /* Pods-Hot Lanes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C7458F7BE85876602D8D81F916981C /* Pods-Hot Lanes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96238B96A9BB702EA5D0101816222D67 /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3537CA1090C951F8E6BC50C07621816A /* PMAlertController.xib */; };
+		9712C34C3691A27CCD18D1EF523A1550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		A649E0E880C616DFFF16A705F3CB7ECA /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0998D1534B4C49E91E460A5A1795C1A /* PMAlertAction.swift */; };
+		AB43705DAE7556569A57F82BAFBCD6E6 /* Pods-Hot LanesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 872F66252A14879FFB3537966773854D /* Pods-Hot LanesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCAFB8B5EA45680ADBD72C790494B26A /* PMAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DB4590E9B9DD560F8F667D173B381D /* PMAlertController-dummy.m */; };
+		C792C04B50F602C3BBDC06D2E61FF49D /* Pods-Hot LanesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE301A16FC5E24F1FFA14A3DD8A6C6E2 /* Pods-Hot LanesTests-dummy.m */; };
+		DAAE08C7D6BA2FABE4AA8C1DFBA8213C /* PMAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D07C07DC77F7B8BC2D957B20A1930BC /* PMAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F15FA58F86DB9B19DEEC68C2C2F2B94C /* Pods-Hot LanesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B441C52CDCB3B9320D36AF908A4DEF /* Pods-Hot LanesUITests-dummy.m */; };
+		F467C72888C760677F788A3FB120934D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		F68B80566D3C08F7603D1CD89BA6A7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F224C5F3E31F1B5742F7FA72DA2F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AB96F7E8DD8856CD05BD74C0ABBF9C;
+			remoteInfo = "PMAlertController-PMAlertController";
+		};
+		5F6BCA74FEE0ABF6DF7BB4E2CB0A5792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5AB1C0293AFBBE30818EC1F7565FA51;
+			remoteInfo = PMAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F013D6783A665B1D9781DB6155DFE70 /* Pods-Hot LanesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hot LanesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		117DE8014F9B3C4634B24C6F1DEBE645 /* Pods-Hot Lanes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hot Lanes-frameworks.sh"; sourceTree = "<group>"; };
+		2D07C07DC77F7B8BC2D957B20A1930BC /* PMAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-umbrella.h"; sourceTree = "<group>"; };
+		3265EB8687E04D14C198A0085A944CAC /* Pods-Hot LanesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hot LanesUITests-umbrella.h"; sourceTree = "<group>"; };
+		3537CA1090C951F8E6BC50C07621816A /* PMAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PMAlertController.xib; path = Library/PMAlertController.xib; sourceTree = "<group>"; };
+		37BDA5077CC53AE3F5CD3FB15DC7866B /* Pods-Hot LanesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hot LanesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BEA2C5CB1F14BA85819C6AFCC72F42A /* Pods_Hot_LanesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hot_LanesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7101FF922C92C5018C1B1CB77A564E /* Pods-Hot Lanes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hot Lanes-resources.sh"; sourceTree = "<group>"; };
+		4E73EB2D957E69DC0951F8F7DA513696 /* ResourceBundle-PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PMAlertController-Info.plist"; sourceTree = "<group>"; };
+		52328F5CED61CE5A1B73670E42098576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595ACC219789989D800056F77BCE8BA2 /* Pods-Hot LanesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Hot LanesTests.modulemap"; sourceTree = "<group>"; };
+		5A70743A03FAD3EAF20A50C5B7A2998C /* PMAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMAlertController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1D99D5010A0BAF739AC94C61A61038 /* PMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PMAlertController.modulemap; sourceTree = "<group>"; };
+		5D3E6A4E2DB39DEDE829613154829674 /* PMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		606DDCCE03C3325FA5E965DF5C2CC7CE /* Pods-Hot LanesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hot LanesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63949F5BBE09339A4288AAE733870A55 /* Pods-Hot Lanes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hot Lanes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		773220AFDFC70A3E0898EF0DC0EF8B3C /* Pods-Hot LanesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hot LanesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8165581A89785CD58F725F06D65B292D /* Pods-Hot LanesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hot LanesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		872F66252A14879FFB3537966773854D /* Pods-Hot LanesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hot LanesTests-umbrella.h"; sourceTree = "<group>"; };
+		88DB4590E9B9DD560F8F667D173B381D /* PMAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMAlertController-dummy.m"; sourceTree = "<group>"; };
+		91B441C52CDCB3B9320D36AF908A4DEF /* Pods-Hot LanesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hot LanesUITests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95DE29443F7C17B61E817EEABA059656 /* Pods-Hot LanesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hot LanesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9618FC485A55982D407DD7EB4BD87A2F /* Pods-Hot Lanes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hot Lanes-acknowledgements.plist"; sourceTree = "<group>"; };
+		999804BC8F6A2CAE612FE1F74C65D361 /* Pods-Hot LanesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Hot LanesUITests.modulemap"; sourceTree = "<group>"; };
+		A0998D1534B4C49E91E460A5A1795C1A /* PMAlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertAction.swift; path = Library/PMAlertAction.swift; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5FD2FFA2421D981C5E261414D56EB10 /* Pods-Hot LanesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hot LanesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B18831BD848B68CE5A3A4806D5D167C9 /* Pods-Hot Lanes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hot Lanes.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F5EF4F282876FDFB730436B176F28F /* Pods-Hot LanesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hot LanesTests-resources.sh"; sourceTree = "<group>"; };
+		BB3213176E0AE1966CC1D4D67482E083 /* Pods_Hot_Lanes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hot_Lanes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C7458F7BE85876602D8D81F916981C /* Pods-Hot Lanes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hot Lanes-umbrella.h"; sourceTree = "<group>"; };
+		C3822B8EE252B202C4F0EB205740E9E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC19D9CCDEBF244DE33192F5FCDA50AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB9B84230A5167E85A853D57F0AF1CC /* PMAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.xcconfig; sourceTree = "<group>"; };
+		CE301A16FC5E24F1FFA14A3DD8A6C6E2 /* Pods-Hot LanesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hot LanesTests-dummy.m"; sourceTree = "<group>"; };
+		CF28428F0EE0DD0E030076644BCB3BC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BFC22A6A0C953CD47CFA1105CB7CF4 /* Pods-Hot LanesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hot LanesUITests-resources.sh"; sourceTree = "<group>"; };
+		E3938D1098733A453F4B43B88C3C19AB /* Pods-Hot Lanes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Hot Lanes.modulemap"; sourceTree = "<group>"; };
+		E4D7CC6EB3A540D5636195F76C331806 /* Pods_Hot_LanesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hot_LanesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFCA8B4CA1E4C4283024054BA99E11C9 /* Pods-Hot Lanes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hot Lanes.release.xcconfig"; sourceTree = "<group>"; };
+		F26176F691DC302E3DADF4EE737E3977 /* Pods-Hot LanesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hot LanesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F76F02AE8927F5213866B57CEB25BE63 /* Pods-Hot LanesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hot LanesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F925B88354ED8B63DA4463E19EA9B468 /* Pods-Hot LanesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hot LanesTests-frameworks.sh"; sourceTree = "<group>"; };
+		F93A081B06EBE5AA5F07D14BD037399A /* PMAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertController.swift; path = Library/PMAlertController.swift; sourceTree = "<group>"; };
+		FDA03C7C9F02C715058B1DC5AA7FD901 /* Pods-Hot Lanes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hot Lanes-dummy.m"; sourceTree = "<group>"; };
+		FE88E3A4D8D7FA198A791896E12B137D /* PMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006389588579C30D91C8E313F039C950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9712C34C3691A27CCD18D1EF523A1550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28361A357577612BD53DA689E822496C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CF202BB478D17B2A440E5D5F3E4999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F467C72888C760677F788A3FB120934D /* Foundation.framework in Frameworks */,
+				08269A23C95453152F78C4EA0065C917 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D719179086D95C36196A4A75EC21E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68B80566D3C08F7603D1CD89BA6A7F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE137E8788EC0DACD83D44F3C3782248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4BC821A6267792CBA5B6FF5E625233 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E3700185F72BE95009B473E4FBFCDF /* PMAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				A0998D1534B4C49E91E460A5A1795C1A /* PMAlertAction.swift */,
+				F93A081B06EBE5AA5F07D14BD037399A /* PMAlertController.swift */,
+				3537CA1090C951F8E6BC50C07621816A /* PMAlertController.xib */,
+				78DE410ED47B068483F32A46A5663920 /* Resources */,
+				A5296A97DB45ACA252EAF395A5C45ADC /* Support Files */,
+			);
+			path = PMAlertController;
+			sourceTree = "<group>";
+		};
+		323081A8A0124DBB1C142531DF660568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25E3700185F72BE95009B473E4FBFCDF /* PMAlertController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38C692EF8152EBE38F5C7B3C8FC6F6EE /* Pods-Hot LanesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3822B8EE252B202C4F0EB205740E9E5 /* Info.plist */,
+				999804BC8F6A2CAE612FE1F74C65D361 /* Pods-Hot LanesUITests.modulemap */,
+				606DDCCE03C3325FA5E965DF5C2CC7CE /* Pods-Hot LanesUITests-acknowledgements.markdown */,
+				A5FD2FFA2421D981C5E261414D56EB10 /* Pods-Hot LanesUITests-acknowledgements.plist */,
+				91B441C52CDCB3B9320D36AF908A4DEF /* Pods-Hot LanesUITests-dummy.m */,
+				0F013D6783A665B1D9781DB6155DFE70 /* Pods-Hot LanesUITests-frameworks.sh */,
+				D8BFC22A6A0C953CD47CFA1105CB7CF4 /* Pods-Hot LanesUITests-resources.sh */,
+				3265EB8687E04D14C198A0085A944CAC /* Pods-Hot LanesUITests-umbrella.h */,
+				37BDA5077CC53AE3F5CD3FB15DC7866B /* Pods-Hot LanesUITests.debug.xcconfig */,
+				8165581A89785CD58F725F06D65B292D /* Pods-Hot LanesUITests.release.xcconfig */,
+			);
+			name = "Pods-Hot LanesUITests";
+			path = "Target Support Files/Pods-Hot LanesUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78DE410ED47B068483F32A46A5663920 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				323081A8A0124DBB1C142531DF660568 /* Pods */,
+				A0181BD63532256D415E056D1DD29E1D /* Products */,
+				84A32BA77D082E4FE23FBFF42E9DB107 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84A32BA77D082E4FE23FBFF42E9DB107 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87693BC04D4C39DA3EDE65DF4F9DBA50 /* Pods-Hot Lanes */,
+				AED31E33059949F967EAA6C7455C3656 /* Pods-Hot LanesTests */,
+				38C692EF8152EBE38F5C7B3C8FC6F6EE /* Pods-Hot LanesUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		87693BC04D4C39DA3EDE65DF4F9DBA50 /* Pods-Hot Lanes */ = {
+			isa = PBXGroup;
+			children = (
+				CC19D9CCDEBF244DE33192F5FCDA50AF /* Info.plist */,
+				E3938D1098733A453F4B43B88C3C19AB /* Pods-Hot Lanes.modulemap */,
+				63949F5BBE09339A4288AAE733870A55 /* Pods-Hot Lanes-acknowledgements.markdown */,
+				9618FC485A55982D407DD7EB4BD87A2F /* Pods-Hot Lanes-acknowledgements.plist */,
+				FDA03C7C9F02C715058B1DC5AA7FD901 /* Pods-Hot Lanes-dummy.m */,
+				117DE8014F9B3C4634B24C6F1DEBE645 /* Pods-Hot Lanes-frameworks.sh */,
+				3F7101FF922C92C5018C1B1CB77A564E /* Pods-Hot Lanes-resources.sh */,
+				C2C7458F7BE85876602D8D81F916981C /* Pods-Hot Lanes-umbrella.h */,
+				B18831BD848B68CE5A3A4806D5D167C9 /* Pods-Hot Lanes.debug.xcconfig */,
+				EFCA8B4CA1E4C4283024054BA99E11C9 /* Pods-Hot Lanes.release.xcconfig */,
+			);
+			name = "Pods-Hot Lanes";
+			path = "Target Support Files/Pods-Hot Lanes";
+			sourceTree = "<group>";
+		};
+		A0181BD63532256D415E056D1DD29E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A70743A03FAD3EAF20A50C5B7A2998C /* PMAlertController.bundle */,
+				5D3E6A4E2DB39DEDE829613154829674 /* PMAlertController.framework */,
+				BB3213176E0AE1966CC1D4D67482E083 /* Pods_Hot_Lanes.framework */,
+				3BEA2C5CB1F14BA85819C6AFCC72F42A /* Pods_Hot_LanesTests.framework */,
+				E4D7CC6EB3A540D5636195F76C331806 /* Pods_Hot_LanesUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5296A97DB45ACA252EAF395A5C45ADC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF28428F0EE0DD0E030076644BCB3BC1 /* Info.plist */,
+				5B1D99D5010A0BAF739AC94C61A61038 /* PMAlertController.modulemap */,
+				CCB9B84230A5167E85A853D57F0AF1CC /* PMAlertController.xcconfig */,
+				88DB4590E9B9DD560F8F667D173B381D /* PMAlertController-dummy.m */,
+				FE88E3A4D8D7FA198A791896E12B137D /* PMAlertController-prefix.pch */,
+				2D07C07DC77F7B8BC2D957B20A1930BC /* PMAlertController-umbrella.h */,
+				4E73EB2D957E69DC0951F8F7DA513696 /* ResourceBundle-PMAlertController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PMAlertController";
+			sourceTree = "<group>";
+		};
+		AED31E33059949F967EAA6C7455C3656 /* Pods-Hot LanesTests */ = {
+			isa = PBXGroup;
+			children = (
+				52328F5CED61CE5A1B73670E42098576 /* Info.plist */,
+				595ACC219789989D800056F77BCE8BA2 /* Pods-Hot LanesTests.modulemap */,
+				F26176F691DC302E3DADF4EE737E3977 /* Pods-Hot LanesTests-acknowledgements.markdown */,
+				F76F02AE8927F5213866B57CEB25BE63 /* Pods-Hot LanesTests-acknowledgements.plist */,
+				CE301A16FC5E24F1FFA14A3DD8A6C6E2 /* Pods-Hot LanesTests-dummy.m */,
+				F925B88354ED8B63DA4463E19EA9B468 /* Pods-Hot LanesTests-frameworks.sh */,
+				B4F5EF4F282876FDFB730436B176F28F /* Pods-Hot LanesTests-resources.sh */,
+				872F66252A14879FFB3537966773854D /* Pods-Hot LanesTests-umbrella.h */,
+				773220AFDFC70A3E0898EF0DC0EF8B3C /* Pods-Hot LanesTests.debug.xcconfig */,
+				95DE29443F7C17B61E817EEABA059656 /* Pods-Hot LanesTests.release.xcconfig */,
+			);
+			name = "Pods-Hot LanesTests";
+			path = "Target Support Files/Pods-Hot LanesTests";
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50CA32B43E12F90E67CC86475551F4A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43705DAE7556569A57F82BAFBCD6E6 /* Pods-Hot LanesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AC2BCA58D860164D65BAE36FE6254F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAE08C7D6BA2FABE4AA8C1DFBA8213C /* PMAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6ECEAFCF37FF95CAF6B0C1DED159F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE073F0AC582B16596EEF7FB233BE3A /* Pods-Hot LanesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B49364883F4E8B08BCBA133E5BD731 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82077B52FD413CCB5AB8AC0EED38C1F4 /* Pods-Hot Lanes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2AB96F7E8DD8856CD05BD74C0ABBF9C /* PMAlertController-PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBC4602E476EF499DEFB4FA782F90D2 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */;
+			buildPhases = (
+				18EAC1A7DD742BB402409A51F31648B7 /* Sources */,
+				28361A357577612BD53DA689E822496C /* Frameworks */,
+				4A7CA032E4D1FCBD34E1D3EF57075A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMAlertController-PMAlertController";
+			productName = "PMAlertController-PMAlertController";
+			productReference = 5A70743A03FAD3EAF20A50C5B7A2998C /* PMAlertController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C33E7AD96885B88FC552EEE5EA465A82 /* Pods-Hot Lanes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4ABE05EE3BADB7A40BB493B3A02029 /* Build configuration list for PBXNativeTarget "Pods-Hot Lanes" */;
+			buildPhases = (
+				5F15BD889E7039EE02E274D88828B6CA /* Sources */,
+				AE137E8788EC0DACD83D44F3C3782248 /* Frameworks */,
+				A4B49364883F4E8B08BCBA133E5BD731 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58FF168A001BB9F285499B7A17914B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hot Lanes";
+			productName = "Pods-Hot Lanes";
+			productReference = BB3213176E0AE1966CC1D4D67482E083 /* Pods_Hot_Lanes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D685A002117E44B2EEFC97273A8F0F92 /* Pods-Hot LanesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842440330CC7F8FD8D721CDE105CBE11 /* Build configuration list for PBXNativeTarget "Pods-Hot LanesTests" */;
+			buildPhases = (
+				0E553442B5E00EDF137716252FAC0BA1 /* Sources */,
+				97D719179086D95C36196A4A75EC21E2 /* Frameworks */,
+				50CA32B43E12F90E67CC86475551F4A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Hot LanesTests";
+			productName = "Pods-Hot LanesTests";
+			productReference = 3BEA2C5CB1F14BA85819C6AFCC72F42A /* Pods_Hot_LanesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5AB1C0293AFBBE30818EC1F7565FA51 /* PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097B5081FEAF3510601787F9AE764519 /* Build configuration list for PBXNativeTarget "PMAlertController" */;
+			buildPhases = (
+				8F95FF72D0EA493A408FAE3B91BC9615 /* Sources */,
+				29CF202BB478D17B2A440E5D5F3E4999 /* Frameworks */,
+				5D7F1806074A26F824FFB22EE9893C61 /* Resources */,
+				81AC2BCA58D860164D65BAE36FE6254F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342D6C46F61E3B8BDB40723C718392E0 /* PBXTargetDependency */,
+			);
+			name = PMAlertController;
+			productName = PMAlertController;
+			productReference = 5D3E6A4E2DB39DEDE829613154829674 /* PMAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB9BF4683D5605A33301F71A4CD082B2 /* Pods-Hot LanesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5059700E18FB3ACD4B447E44297D2A /* Build configuration list for PBXNativeTarget "Pods-Hot LanesUITests" */;
+			buildPhases = (
+				E069E2B465889042BF590EBB96F72322 /* Sources */,
+				006389588579C30D91C8E313F039C950 /* Frameworks */,
+				92F6ECEAFCF37FF95CAF6B0C1DED159F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Hot LanesUITests";
+			productName = "Pods-Hot LanesUITests";
+			productReference = E4D7CC6EB3A540D5636195F76C331806 /* Pods_Hot_LanesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A0181BD63532256D415E056D1DD29E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AB1C0293AFBBE30818EC1F7565FA51 /* PMAlertController */,
+				C2AB96F7E8DD8856CD05BD74C0ABBF9C /* PMAlertController-PMAlertController */,
+				C33E7AD96885B88FC552EEE5EA465A82 /* Pods-Hot Lanes */,
+				D685A002117E44B2EEFC97273A8F0F92 /* Pods-Hot LanesTests */,
+				FB9BF4683D5605A33301F71A4CD082B2 /* Pods-Hot LanesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7CA032E4D1FCBD34E1D3EF57075A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96238B96A9BB702EA5D0101816222D67 /* PMAlertController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7F1806074A26F824FFB22EE9893C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A91AC0152233BBA5BBF0100DDFEF735 /* PMAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E553442B5E00EDF137716252FAC0BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C792C04B50F602C3BBDC06D2E61FF49D /* Pods-Hot LanesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EAC1A7DD742BB402409A51F31648B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F15BD889E7039EE02E274D88828B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C429C5A2F9D56BF7861DC6A9B46F7E /* Pods-Hot Lanes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F95FF72D0EA493A408FAE3B91BC9615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649E0E880C616DFFF16A705F3CB7ECA /* PMAlertAction.swift in Sources */,
+				BCAFB8B5EA45680ADBD72C790494B26A /* PMAlertController-dummy.m in Sources */,
+				5BAF832E5A2CE0FDFEC4F1865F75ED79 /* PMAlertController.swift in Sources */,
+				7DCFE8B560F0D4D7889A1AF1539167F2 /* PMAlertController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E069E2B465889042BF590EBB96F72322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15FA58F86DB9B19DEEC68C2C2F2B94C /* Pods-Hot LanesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342D6C46F61E3B8BDB40723C718392E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PMAlertController-PMAlertController";
+			target = C2AB96F7E8DD8856CD05BD74C0ABBF9C /* PMAlertController-PMAlertController */;
+			targetProxy = 22F224C5F3E31F1B5742F7FA72DA2F92 /* PBXContainerItemProxy */;
+		};
+		E58FF168A001BB9F285499B7A17914B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMAlertController;
+			target = E5AB1C0293AFBBE30818EC1F7565FA51 /* PMAlertController */;
+			targetProxy = 5F6BCA74FEE0ABF6DF7BB4E2CB0A5792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09E80BC86ECFC627B433640EF8D8AB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB9B84230A5167E85A853D57F0AF1CC /* PMAlertController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0EE8BBCE24B54356C86820E3F90BA45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773220AFDFC70A3E0898EF0DC0EF8B3C /* Pods-Hot LanesTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hot LanesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hot LanesTests/Pods-Hot LanesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hot_LanesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D2173BCF1686CA3712A8B9C9E5A07DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BDA5077CC53AE3F5CD3FB15DC7866B /* Pods-Hot LanesUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hot LanesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hot LanesUITests/Pods-Hot LanesUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hot_LanesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38A7E0D12762335E5948BA195A7D7C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB9B84230A5167E85A853D57F0AF1CC /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3EC40575BF1E0BF852801D7823658058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DE29443F7C17B61E817EEABA059656 /* Pods-Hot LanesTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hot LanesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hot LanesTests/Pods-Hot LanesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hot_LanesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		463760DF8AD67C0CD2AE7445A3F44744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8165581A89785CD58F725F06D65B292D /* Pods-Hot LanesUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hot LanesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hot LanesUITests/Pods-Hot LanesUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hot_LanesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E3B422181C39BE5AC874C9ADDFF3735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCA8B4CA1E4C4283024054BA99E11C9 /* Pods-Hot Lanes.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hot Lanes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hot Lanes/Pods-Hot Lanes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hot_Lanes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		784428E521FC20B2621F8C6A81AE436F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18831BD848B68CE5A3A4806D5D167C9 /* Pods-Hot Lanes.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hot Lanes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hot Lanes/Pods-Hot Lanes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hot_Lanes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9B174B7833F882C473AAE0D7FE75CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB9B84230A5167E85A853D57F0AF1CC /* PMAlertController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C11A9E0EAA875E18EB9EDBB9104A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB9B84230A5167E85A853D57F0AF1CC /* PMAlertController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097B5081FEAF3510601787F9AE764519 /* Build configuration list for PBXNativeTarget "PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E80BC86ECFC627B433640EF8D8AB2E /* Debug */,
+				C11A9E0EAA875E18EB9EDBB9104A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4ABE05EE3BADB7A40BB493B3A02029 /* Build configuration list for PBXNativeTarget "Pods-Hot Lanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784428E521FC20B2621F8C6A81AE436F /* Debug */,
+				4E3B422181C39BE5AC874C9ADDFF3735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5059700E18FB3ACD4B447E44297D2A /* Build configuration list for PBXNativeTarget "Pods-Hot LanesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2173BCF1686CA3712A8B9C9E5A07DD /* Debug */,
+				463760DF8AD67C0CD2AE7445A3F44744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842440330CC7F8FD8D721CDE105CBE11 /* Build configuration list for PBXNativeTarget "Pods-Hot LanesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE8BBCE24B54356C86820E3F90BA45B /* Debug */,
+				3EC40575BF1E0BF852801D7823658058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBC4602E476EF499DEFB4FA782F90D2 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A7E0D12762335E5948BA195A7D7C26 /* Debug */,
+				A9B174B7833F882C473AAE0D7FE75CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
