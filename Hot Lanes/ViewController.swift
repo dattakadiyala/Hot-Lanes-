@@ -15,10 +15,10 @@ class ViewController: UIViewController, MKMapViewDelegate, WKNavigationDelegate,
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var mywebView: UIWebView!
     let regionRadius: CLLocationDistance = 12000
-    private var urlString:String = "http://www.newcomedy.com/"
+    private var urlString:String = "http://www.eenadu.net/18hyd-general9a.jpg"
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "http://www.newcomedy.com/")!
+        let url = URL(string: "http://www.eenadu.net/18hyd-general9a.jpg")!
         mywebView.loadRequest(URLRequest(url: url))
         // Do any additional setup after loading the view, typically from a nib.
         let initialLocation = CLLocation(latitude: 29.760427, longitude: -95.369803)
